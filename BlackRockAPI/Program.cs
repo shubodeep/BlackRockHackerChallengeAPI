@@ -73,4 +73,4 @@ app.MapGet("/blackrock/challenge/v1/performance", () =>
     });
 });
 
-app.Run("http://0.0.0.0:5477");
+app.Run();
